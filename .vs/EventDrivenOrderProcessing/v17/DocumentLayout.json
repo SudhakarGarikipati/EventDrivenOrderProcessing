@@ -1,7 +1,68 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|solutionrelative:backendservices\\orderservice\\orderservice.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.infrastructure\\persistence\\repository\\orderservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|solutionrelative:backendservices\\orderservice\\orderservice.infrastructure\\persistence\\repository\\orderservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.infrastructure\\persistence\\orderservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|solutionrelative:backendservices\\orderservice\\orderservice.infrastructure\\persistence\\orderservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.application\\service\\implementation\\orderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|solutionrelative:backendservices\\orderservice\\orderservice.application\\service\\implementation\\orderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.application\\mappings\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|solutionrelative:backendservices\\orderservice\\orderservice.application\\mappings\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.application\\dtos\\getorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|solutionrelative:backendservices\\orderservice\\orderservice.application\\dtos\\getorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.application\\dtos\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|solutionrelative:backendservices\\orderservice\\orderservice.application\\dtos\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.application\\dtos\\updateorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|solutionrelative:backendservices\\orderservice\\orderservice.application\\dtos\\updateorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.application\\dtos\\createorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|solutionrelative:backendservices\\orderservice\\orderservice.application\\dtos\\createorderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BC67B4-1128-4170-95D9-017359146A1E}|BackendServices\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.domain\\interfaces\\iorderservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BC67B4-1128-4170-95D9-017359146A1E}|BackendServices\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj|solutionrelative:backendservices\\orderservice\\orderservice.domain\\interfaces\\iorderservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.application\\service\\abstraction\\iorderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|solutionrelative:backendservices\\orderservice\\orderservice.application\\service\\abstraction\\iorderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.application\\orderservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|solutionrelative:backendservices\\orderservice\\orderservice.application\\orderservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BC67B4-1128-4170-95D9-017359146A1E}|BackendServices\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.domain\\orderservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1BC67B4-1128-4170-95D9-017359146A1E}|BackendServices\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj|solutionrelative:backendservices\\orderservice\\orderservice.domain\\orderservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1BC67B4-1128-4170-95D9-017359146A1E}|BackendServices\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.domain\\entities\\orderservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1BC67B4-1128-4170-95D9-017359146A1E}|BackendServices\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj|solutionrelative:backendservices\\orderservice\\orderservice.domain\\entities\\orderservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +70,206 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Program.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T04:28:52.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Infrastructure\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\ServiceRegistration.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Infrastructure\\ServiceRegistration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T03:47:38.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\Persistence\\Repository\\OrderServiceRepository.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Infrastructure\\Persistence\\Repository\\OrderServiceRepository.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\Persistence\\Repository\\OrderServiceRepository.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Infrastructure\\Persistence\\Repository\\OrderServiceRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T03:39:00.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderServiceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\Persistence\\OrderServiceDbContext.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Infrastructure\\Persistence\\OrderServiceDbContext.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\Persistence\\OrderServiceDbContext.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Infrastructure\\Persistence\\OrderServiceDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T03:37:46.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateOrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\DTOs\\CreateOrderItemDto.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Application\\DTOs\\CreateOrderItemDto.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\DTOs\\CreateOrderItemDto.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Application\\DTOs\\CreateOrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T01:12:01.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MappingConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Mappings\\MappingConfig.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Application\\Mappings\\MappingConfig.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Mappings\\MappingConfig.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Application\\Mappings\\MappingConfig.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T23:05:02.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Service\\Implementation\\OrderAppService.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Application\\Service\\Implementation\\OrderAppService.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Service\\Implementation\\OrderAppService.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Application\\Service\\Implementation\\OrderAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T22:47:27.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetOrderResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\DTOs\\GetOrderResponse.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Application\\DTOs\\GetOrderResponse.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\DTOs\\GetOrderResponse.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Application\\DTOs\\GetOrderResponse.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T22:46:42.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateOrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\DTOs\\UpdateOrderRequest.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Application\\DTOs\\UpdateOrderRequest.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\DTOs\\UpdateOrderRequest.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Application\\DTOs\\UpdateOrderRequest.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T22:45:57.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateOrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\DTOs\\CreateOrderRequest.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Application\\DTOs\\CreateOrderRequest.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\DTOs\\CreateOrderRequest.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Application\\DTOs\\CreateOrderRequest.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T22:45:36.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IOrderAppService.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Service\\Abstraction\\IOrderAppService.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Application\\Service\\Abstraction\\IOrderAppService.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Service\\Abstraction\\IOrderAppService.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Application\\Service\\Abstraction\\IOrderAppService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T22:44:07.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IOrderServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Domain\\Interfaces\\IOrderServiceRepository.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Domain\\Interfaces\\IOrderServiceRepository.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Domain\\Interfaces\\IOrderServiceRepository.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Domain\\Interfaces\\IOrderServiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T22:28:09.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderService.Application",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-25T22:34:09.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderService.Domain",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-25T22:27:17.663Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderServiceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Domain\\Entities\\OrderServiceDbContext.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Domain\\Entities\\OrderServiceDbContext.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Domain\\Entities\\OrderServiceDbContext.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Domain\\Entities\\OrderServiceDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T22:26:32.097Z",
+              "EditorCaption": ""
             }
           ]
         }
