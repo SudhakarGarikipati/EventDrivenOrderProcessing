@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+﻿using MapsterMapper;
 using OrderService.Application.DTOs;
 using OrderService.Application.Service.Abstraction;
 using OrderService.Domain.Interfaces;

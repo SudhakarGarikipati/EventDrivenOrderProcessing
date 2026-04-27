@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "SartBothServices",
+    "Projects": [
+      {
+        "Path": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
