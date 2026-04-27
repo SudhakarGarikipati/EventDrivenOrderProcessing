@@ -9,11 +9,6 @@ using OrderService.Application.Service.Implementation;
 using OrderService.Domain.Interfaces;
 using OrderService.Infrastructure.Persistence;
 using OrderService.Infrastructure.Persistence.Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OrderService.Infrastructure
 {

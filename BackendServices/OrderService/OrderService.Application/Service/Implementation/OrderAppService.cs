@@ -1,13 +1,7 @@
 ﻿using AutoMapper;
-using Microsoft.EntityFrameworkCore.Metadata;
 using OrderService.Application.DTOs;
 using OrderService.Application.Service.Abstraction;
 using OrderService.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OrderService.Application.Service.Implementation
 {
