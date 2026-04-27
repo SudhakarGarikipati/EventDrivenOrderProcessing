@@ -38,13 +38,13 @@ namespace PaymentService.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> Order(int id)
+        public async Task<IActionResult> Order(Guid id)
         {
-            if (id <= 0)
+            if (id == null)
             {
                 return BadRequest("Invalid order ID.");
             }
-            var order = await _orderAppService.GetOrderByIdAsync(Guid.Parse(id.ToString()));
+            var order = await _orderAppService.GetOrderByIdAsync(id);
             if (order == null)
             {
                 return NotFound();
