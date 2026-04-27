@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.api\\orderservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\orderservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16EB0C6-F08E-4AD1-808A-AE91CCC76C75}|BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\paymentservice\\paymentservice.api\\paymentservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{F16EB0C6-F08E-4AD1-808A-AE91CCC76C75}|BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj|solutionrelative:backendservices\\paymentservice\\paymentservice.api\\paymentservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16EB0C6-F08E-4AD1-808A-AE91CCC76C75}|BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\paymentservice\\paymentservice.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16EB0C6-F08E-4AD1-808A-AE91CCC76C75}|BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj|solutionrelative:backendservices\\paymentservice\\paymentservice.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.api\\orderservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\orderservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,25 +38,64 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-27T03:49:04.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Api\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "BackendServices\\PaymentService\\PaymentService.Api\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Api\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "BackendServices\\PaymentService\\PaymentService.Api\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T03:20:03.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PaymentService.Api.http",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.http",
+              "RelativeDocumentMoniker": "BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.http",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.http",
+              "RelativeToolTip": "BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-04-27T03:19:45.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs*",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs*",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-27T03:11:13.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "OrderService.Api.http",
               "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http",
               "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http*",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http*",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2026-04-27T03:09:57.966Z",
