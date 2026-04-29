@@ -7,6 +7,7 @@ using PaymentService.Application.Mappings;
 using PaymentService.Application.Service.Abstraction;
 using PaymentService.Application.Service.Implementation;
 using PaymentService.Domain.Interfaces;
+using PaymentService.Infrastructure.Messaging;
 using PaymentService.Infrastructure.Persistence;
 using PaymentService.Infrastructure.Persistence.Repository;
 
@@ -24,6 +25,9 @@ namespace PaymentService.Infrastructure
             // Add other service registrations as needed
             services.AddScoped<IPaymentServiceRepository, PaymentServiceRepository>();
             services.AddScoped<IPaymentAppService, PaymentAppService>();
+
+            // Register Kafka consumer as a hosted service
+            services.AddHostedService<OrderCreatedConsumer>();
 
             //Mapper registration
             var config = new TypeAdapterConfig();

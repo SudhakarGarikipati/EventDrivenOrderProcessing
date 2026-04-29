@@ -7,6 +7,7 @@ using OrderService.Application.Mappings;
 using OrderService.Application.Service.Abstraction;
 using OrderService.Application.Service.Implementation;
 using OrderService.Domain.Interfaces;
+using OrderService.Infrastructure.Messaging;
 using OrderService.Infrastructure.Persistence;
 using OrderService.Infrastructure.Persistence.Repository;
 
@@ -21,6 +22,9 @@ namespace OrderService.Infrastructure
 
             services.AddScoped<IOrderAppService,OrderAppService>();
             services.AddScoped<IOrderServiceRepository,OrderServiceRepository>();
+
+            // Register Kafka producer
+            services.AddScoped<IOrderCreatedPublisher, KafkaOrderCreatedPublisher>();
 
             // Add other service registrations as needed
             var config = new TypeAdapterConfig();

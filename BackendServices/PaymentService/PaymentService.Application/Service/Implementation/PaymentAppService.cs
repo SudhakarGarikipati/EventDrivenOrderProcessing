@@ -16,10 +16,23 @@ namespace PaymentService.Application.Service.Implementation
             _mapper = mapper;
         }
 
-        public async Task CreatePaymentAsync(CreatePaymentRequest request)
+        public async Task CreatePaymentAsync(Guid orderId, string customerId, int cartId, decimal total)
         {
-            var paymentDtls = _mapper.Map<PaymentDetail>(request);
-            await _paymentServiceRepository.CreatePaymentAsync(paymentDtls);
+            var paymentDetails = new PaymentDetail
+            {
+                Id = Guid.NewGuid().ToString(),
+                TransactionId = Guid.NewGuid().ToString(),
+                Email = "customerId@gmail.com",
+                CartId = cartId,
+                Total = total,
+                Status = "Success",
+                CreatedDate = DateTime.UtcNow,
+                Tax = total * 0.1m, // Assuming a tax rate of 10%   
+                Currency = "USD",
+                GrandTotal = total + (total * 0.1m),
+                UserId = 1 // Assuming customerId can be parsed to an integer
+            };
+            await _paymentServiceRepository.CreatePaymentAsync(paymentDetails);
         }
 
         public async Task<GetPaymentResponse> GetPaymentByIdAsync(string paymentId)

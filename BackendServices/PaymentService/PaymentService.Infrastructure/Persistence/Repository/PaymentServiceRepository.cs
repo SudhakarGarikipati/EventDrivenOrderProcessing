@@ -15,8 +15,8 @@ namespace PaymentService.Infrastructure.Persistence.Repository
 
         public async Task CreatePaymentAsync(PaymentDetail payment)
         {
-                await _context.PaymentDetails.AddAsync(payment);
-                await _context.SaveChangesAsync();
+            await _context.PaymentDetails.AddAsync(payment);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<PaymentDetail> GetPaymentByIdAsync(string paymentId)

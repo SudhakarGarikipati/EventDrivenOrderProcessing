@@ -2,6 +2,8 @@
 {
     public class CreateOrderRequest
     {
+        public string OrderId { get; set; }
+
         public string PaymentId { get; set; }
 
         public string Street { get; set; }

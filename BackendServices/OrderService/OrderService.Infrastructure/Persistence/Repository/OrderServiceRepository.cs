@@ -1,4 +1,5 @@
-﻿using OrderService.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using OrderService.Domain.Entities;
 using OrderService.Domain.Interfaces;
 
 namespace OrderService.Infrastructure.Persistence.Repository
@@ -23,7 +24,7 @@ namespace OrderService.Infrastructure.Persistence.Repository
 
         public async Task<Order> GetOrderByIdAsync(Guid orderId)
         {
-            var order = await _context.Orders.FindAsync(orderId);
+            var order = await _context.Orders.Include(o=>o.OrderItems).FirstOrDefaultAsync(o => o.OrderId == orderId);
             return order;
         }
 

@@ -31,17 +31,17 @@ namespace PaymentService.Api.Controllers
             return Ok(paymentDetails);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Payment([FromBody] CreatePaymentRequest createPaymentRequest)
-        {
-            if (createPaymentRequest == null)
-            {
-                return BadRequest("Payment details are required.");
-            }
-            await _paymentAppService.CreatePaymentAsync(createPaymentRequest);
-            return Ok("Payment created successfully.");
+        //[HttpPost]
+        //public async Task<IActionResult> Payment([FromBody] CreatePaymentRequest createPaymentRequest)
+        //{
+        //    if (createPaymentRequest == null)
+        //    {
+        //        return BadRequest("Payment details are required.");
+        //    }
+        //    await _paymentAppService.CreatePaymentAsync(createPaymentRequest);
+        //    return Ok("Payment created successfully.");
 
-        }
+        //}
 
         [HttpPut]
         public async Task<IActionResult> Payment([FromBody] UpdatePaymentRequest updatePaymentRequest)
