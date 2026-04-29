@@ -9,5 +9,7 @@
         public string CustomerId { get; set; }
 
         public decimal TotalAmount { get; set; }
+
+        public string CorrelationId { get; set; }
     }
 }

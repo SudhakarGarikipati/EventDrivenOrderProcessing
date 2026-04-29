@@ -25,14 +25,18 @@ namespace OrderService.Infrastructure.Messaging
 
         public async Task PublishAsync(OrderCreated orderCreated)
         {
-            _logger.LogInformation("Publishing OrderCreated event for OrderId={OrderId}", orderCreated.OrderId);
-            var message = new Message<string, string>
+            using (_logger.BeginScope(new { orderCreated.CorrelationId, orderCreated.OrderId }))
             {
-                Key = orderCreated.OrderId.ToString(),
-                Value = JsonSerializer.Serialize(orderCreated)
-            };
-            await _producer.ProduceAsync("order-created", message);
-            _logger.LogInformation("Publishing OrderCreated event for OrderId={OrderId}", orderCreated.OrderId);
+
+                _logger.LogInformation("Start publishing OrderCreated event for OrderId={OrderId}", orderCreated.OrderId);
+                var message = new Message<string, string>
+                {
+                    Key = orderCreated.OrderId.ToString(),
+                    Value = JsonSerializer.Serialize(orderCreated)
+                };
+                await _producer.ProduceAsync("order-created", message);
+                _logger.LogInformation("Complete publishing OrderCreated event for OrderId={OrderId}", orderCreated.OrderId);
+            }
         }
     }
 }

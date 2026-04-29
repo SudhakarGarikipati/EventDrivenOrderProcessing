@@ -19,13 +19,14 @@ namespace OrderService.Application.Service.Implementation
             _orderCreatedPublisher = orderCreatedPublisher;
         }
 
-        public async Task CreateOrderAsync(CreateOrderRequest request)
+        public async Task CreateOrderAsync(CreateOrderRequest request, string correlationId)
         {
             var order = _mapper.Map<Domain.Entities.Order>(request);
             order.CreatedDate = DateTime.UtcNow; // ISO 8601
             await _orderServiceRepository.CreateOrderAsync(order);
             var createdOrder = await _orderServiceRepository.GetOrderByIdAsync(order.OrderId);
             var orderCreated = _mapper.Map<OrderCreated>(createdOrder);
+            orderCreated.CorrelationId = correlationId;
             orderCreated.TotalAmount = createdOrder.OrderItems.Sum(oi => oi.Quantity * oi.UnitPrice);
             await _orderCreatedPublisher.PublishAsync(orderCreated);
         }

@@ -22,7 +22,8 @@ namespace PaymentService.Api.Controllers
             {
                 return NoContent();
             }
-            await _orderAppService.CreateOrderAsync(createOrderRequest);
+            var correlationId = HttpContext.Request.Headers["X-Correlation-Id"];
+            await _orderAppService.CreateOrderAsync(createOrderRequest, correlationId);
             return Ok("Order created successfully.");
         }
 

@@ -4,7 +4,7 @@ namespace OrderService.Application.Service.Abstraction
 {
     public interface IOrderAppService
     {
-        public Task CreateOrderAsync(CreateOrderRequest request);
+        public Task CreateOrderAsync(CreateOrderRequest request,string correlationId);
 
         public Task UpdateOrderAsync(UpdateOrderRequest request);
 

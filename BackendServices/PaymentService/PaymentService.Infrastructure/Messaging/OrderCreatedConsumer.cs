@@ -21,11 +21,18 @@ namespace PaymentService.Infrastructure.Messaging
 
         protected override async Task HandleMessageAsync(OrderCreated message)
         {
-            _logger.LogInformation("Consuming OrderCreated event for OrderId={OrderId}", message.OrderId);
-            using var scope = _scopeFactory.CreateScope();
-            var paymentAppService = scope.ServiceProvider.GetRequiredService<IPaymentAppService>();
-            await paymentAppService.CreatePaymentAsync(message.OrderId, message.CustomerId, message.CartId, message.TotalAmount);
-            _logger.LogInformation("Completed Created event for OrderId={OrderId}", message.OrderId);
+            using (_logger.BeginScope(new Dictionary<string, object>
+            {
+                ["CorrelationId"] = message.CorrelationId,
+                ["OrderId"] = message.OrderId
+            }))
+            {
+                _logger.LogInformation("Consuming OrderCreated event for OrderId={OrderId}", message.OrderId);
+                using var scope = _scopeFactory.CreateScope();
+                var paymentAppService = scope.ServiceProvider.GetRequiredService<IPaymentAppService>();
+                await paymentAppService.CreatePaymentAsync(message.OrderId, message.CustomerId, message.CartId, message.TotalAmount);
+                _logger.LogInformation("Completed OrderCreated, Created Payment event for OrderId={OrderId}", message.OrderId);
+            }
         }
     }
 }
