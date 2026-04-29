@@ -1,4 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using OrderService.Application.Service.Abstraction;
 using OrderService.Infrastructure.Persistence;
 using Shared.Events;
 
@@ -6,24 +9,27 @@ namespace OrderService.Infrastructure.Messaging
 {
     public class PaymentCompletedConsumer : KafkaConsumerBase<PaymentCompleted>
     {
-        private readonly OrderServiceDbContext _dbContext;
         private const string topic = "payment-completed";
         private const string groupId = "order-service-group";
-        public PaymentCompletedConsumer(IConfiguration configuration, OrderServiceDbContext orderServiceDbContext) : 
+        private readonly ILogger<PaymentCompletedConsumer> _logger;
+        private readonly IServiceScopeFactory _scopeFactory;
+        public PaymentCompletedConsumer(IServiceScopeFactory scopeFactory, ILogger<PaymentCompletedConsumer> logger,IConfiguration configuration) : 
             base(configuration, topic, groupId)
         {
-            _dbContext = orderServiceDbContext;
+            _logger = logger;
+            // Create a scope factory to resolve scoped services like IOrderAppService
+            _scopeFactory = scopeFactory;
         }
 
         protected override async Task HandleMessageAsync(PaymentCompleted message)
         {
-            var order = _dbContext.Orders.FirstOrDefault(o => o.OrderId == message.OrderId);
-            if (order != null)
-            {
-                order.PaymentId = message.PaymentId;
-                order.AcceptDate = DateTime.UtcNow;
-                await _dbContext.SaveChangesAsync();
-            }
+           _logger.LogInformation("Consuming PaymentCompleted event for OrderId={OrderId}", message.OrderId);
+            // Create a new scope to resolve the IOrderAppService for this message
+            var scope = _scopeFactory.CreateScope();
+            // Resolve the IOrderAppService from the scope
+            var orderAppService = scope.ServiceProvider.GetRequiredService<IOrderAppService>();
+            await orderAppService.MarkOrderAsPaidAsync(message.OrderId, message.PaymentId, message.ProcessedAt);
+           _logger.LogInformation("Completed PaymentCompleted event for OrderId={OrderId}", message.OrderId);
         }
     }
 }

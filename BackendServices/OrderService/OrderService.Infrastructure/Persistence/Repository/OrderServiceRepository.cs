@@ -24,14 +24,21 @@ namespace OrderService.Infrastructure.Persistence.Repository
 
         public async Task<Order> GetOrderByIdAsync(Guid orderId)
         {
-            var order = await _context.Orders.Include(o=>o.OrderItems).FirstOrDefaultAsync(o => o.OrderId == orderId);
+            var order = await _context.Orders.Include(o => o.OrderItems).FirstOrDefaultAsync(o => o.OrderId == orderId);
             return order;
         }
 
         public async Task UpdateOrderAsync(Order order)
         {
-             _context.Orders.Update(order);
-              await _context.SaveChangesAsync();
+            _context.Orders.Update(order);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task MarkOrderAsPaidAsync(Order order, string paymentId, DateTime dateTime)
+        {
+            order.PaymentId = paymentId;
+            order.AcceptDate = dateTime;
+            await _context.SaveChangesAsync();
         }
     }
 }

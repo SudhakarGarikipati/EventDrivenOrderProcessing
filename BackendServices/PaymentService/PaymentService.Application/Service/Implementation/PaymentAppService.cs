@@ -3,6 +3,7 @@ using PaymentService.Application.DTOs;
 using PaymentService.Application.Service.Abstraction;
 using PaymentService.Domain.Entities;
 using PaymentService.Domain.Interfaces;
+using Shared.Events;
 
 namespace PaymentService.Application.Service.Implementation
 {
@@ -10,17 +11,21 @@ namespace PaymentService.Application.Service.Implementation
     {
         private readonly IPaymentServiceRepository _paymentServiceRepository;
         private readonly IMapper _mapper;
+        private readonly IPaymentCompletedPublisher _paymentCompletedPublisher;
 
-        public PaymentAppService(IPaymentServiceRepository paymentServiceRepository, IMapper mapper ) { 
+        public PaymentAppService(IPaymentServiceRepository paymentServiceRepository, IMapper mapper, IPaymentCompletedPublisher paymentCompletedPublisher)
+        {
             _paymentServiceRepository = paymentServiceRepository;
             _mapper = mapper;
+            _paymentCompletedPublisher = paymentCompletedPublisher;
         }
 
         public async Task CreatePaymentAsync(Guid orderId, string customerId, int cartId, decimal total)
         {
+            
             var paymentDetails = new PaymentDetail
             {
-                Id = Guid.NewGuid().ToString(),
+                Id = orderId.ToString(),
                 TransactionId = Guid.NewGuid().ToString(),
                 Email = "customerId@gmail.com",
                 CartId = cartId,
@@ -33,6 +38,16 @@ namespace PaymentService.Application.Service.Implementation
                 UserId = 1 // Assuming customerId can be parsed to an integer
             };
             await _paymentServiceRepository.CreatePaymentAsync(paymentDetails);
+
+            var paymentCompleted = new PaymentCompleted
+            {
+                OrderId = orderId,
+                PaymentId = paymentDetails.Id,
+                ProcessedAt = paymentDetails.CreatedDate
+            };
+
+            // Publish the PaymentCompleted event to notify other services
+            await _paymentCompletedPublisher.PublishAsync(paymentCompleted);
         }
 
         public async Task<GetPaymentResponse> GetPaymentByIdAsync(string paymentId)

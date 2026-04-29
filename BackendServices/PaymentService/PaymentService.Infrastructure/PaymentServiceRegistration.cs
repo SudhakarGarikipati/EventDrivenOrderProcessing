@@ -29,6 +29,9 @@ namespace PaymentService.Infrastructure
             // Register Kafka consumer as a hosted service
             services.AddHostedService<OrderCreatedConsumer>();
 
+            // register Kafka producer
+            services.AddScoped<IPaymentCompletedPublisher, PaymentCompletedPublisher>();
+
             //Mapper registration
             var config = new TypeAdapterConfig();
             config.Scan(typeof(PaymentServiceMappings).Assembly);

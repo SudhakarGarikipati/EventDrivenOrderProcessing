@@ -8,6 +8,8 @@ namespace OrderService.Domain.Interfaces
 
         public Task UpdateOrderAsync(Order order);
 
+        public Task MarkOrderAsPaidAsync(Order order, string paymentId, DateTime dateTime);
+
         public Task<Order> GetOrderByIdAsync(Guid orderId);
     }
 }

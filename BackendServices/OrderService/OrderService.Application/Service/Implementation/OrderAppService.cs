@@ -42,5 +42,20 @@ namespace OrderService.Application.Service.Implementation
             var order = _mapper.Map<Domain.Entities.Order>(request);
             return _orderServiceRepository.UpdateOrderAsync(order);
         }
+
+        public async Task MarkOrderAsPaidAsync(Guid orderId, string paymentId, DateTime dateTime)
+        {
+            if(orderId == Guid.Empty)
+            {
+                throw new ArgumentException("OrderId cannot be empty.", nameof(orderId));
+            }
+            if(string.IsNullOrEmpty(paymentId))
+            {
+                throw new ArgumentException("PaymentId cannot be null or empty.", nameof(paymentId));
+            }
+            var order = await _orderServiceRepository.GetOrderByIdAsync(orderId) ?? throw new InvalidOperationException($"Order with ID {orderId} not found.");
+            await _orderServiceRepository.MarkOrderAsPaidAsync(order, paymentId, dateTime);
+        }
     }
 }
+

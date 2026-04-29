@@ -25,6 +25,7 @@ namespace OrderService.Infrastructure
 
             // Register Kafka producer
             services.AddScoped<IOrderCreatedPublisher, KafkaOrderCreatedPublisher>();
+            services.AddHostedService<PaymentCompletedConsumer>();
 
             // Add other service registrations as needed
             var config = new TypeAdapterConfig();
