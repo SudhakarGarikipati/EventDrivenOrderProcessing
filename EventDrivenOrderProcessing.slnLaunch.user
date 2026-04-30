@@ -1,6 +1,6 @@
 [
   {
-    "Name": "SartBothServices",
+    "Name": "SartAllServices",
     "Projects": [
       {
         "Path": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
@@ -8,6 +8,10 @@
       },
       {
         "Path": "BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj",
         "Action": "Start"
       }
     ]

@@ -1,4 +1,18 @@
+using InventoryService.Infrastructure;
+using Serilog;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// 
+InventoryServiceRegistration.RegisterServices(builder.Services, builder.Configuration);
+
+// Serilog configuration
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .Enrich.FromLogContext()
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 // Add services to the container.
 

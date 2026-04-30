@@ -2,7 +2,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using OrderService.Application.Service.Abstraction;
-using OrderService.Infrastructure.Persistence;
 using Shared.Events;
 
 namespace OrderService.Infrastructure.Messaging
