@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F16EB0C6-F08E-4AD1-808A-AE91CCC76C75}|BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\paymentservice\\paymentservice.api\\paymentservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F16EB0C6-F08E-4AD1-808A-AE91CCC76C75}|BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj|solutionrelative:backendservices\\paymentservice\\paymentservice.api\\paymentservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16EB0C6-F08E-4AD1-808A-AE91CCC76C75}|BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\paymentservice\\paymentservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16EB0C6-F08E-4AD1-808A-AE91CCC76C75}|BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj|solutionrelative:backendservices\\paymentservice\\paymentservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.api\\orderservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\orderservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD3A100-49FD-4AA8-BC94-9D9EA2D199D2}|BackendServices\\Shared\\Shared\\Shared.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\shared\\shared\\observability\\telemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD3A100-49FD-4AA8-BC94-9D9EA2D199D2}|BackendServices\\Shared\\Shared\\Shared.csproj|solutionrelative:backendservices\\shared\\shared\\observability\\telemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62DFBCE2-119E-43C0-9D99-4AD1E725D592}|BackendServices\\PaymentService\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\paymentservice\\paymentservice.infrastructure\\messaging\\ordercreatedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62DFBCE2-119E-43C0-9D99-4AD1E725D592}|BackendServices\\PaymentService\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|solutionrelative:backendservices\\paymentservice\\paymentservice.infrastructure\\messaging\\ordercreatedconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,40 +31,20 @@
       "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\orderservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16EB0C6-F08E-4AD1-808A-AE91CCC76C75}|BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\paymentservice\\paymentservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16EB0C6-F08E-4AD1-808A-AE91CCC76C75}|BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj|solutionrelative:backendservices\\paymentservice\\paymentservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.infrastructure\\messaging\\kafkaordercreatedpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|solutionrelative:backendservices\\orderservice\\orderservice.infrastructure\\messaging\\kafkaordercreatedpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16EB0C6-F08E-4AD1-808A-AE91CCC76C75}|BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\paymentservice\\paymentservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F16EB0C6-F08E-4AD1-808A-AE91CCC76C75}|BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj|solutionrelative:backendservices\\paymentservice\\paymentservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CD3A100-49FD-4AA8-BC94-9D9EA2D199D2}|BackendServices\\Shared\\Shared\\Shared.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\shared\\shared\\events\\ordercreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CD3A100-49FD-4AA8-BC94-9D9EA2D199D2}|BackendServices\\Shared\\Shared\\Shared.csproj|solutionrelative:backendservices\\shared\\shared\\events\\ordercreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.application\\service\\implementation\\orderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|solutionrelative:backendservices\\orderservice\\orderservice.application\\service\\implementation\\orderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.application\\service\\abstraction\\iorderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|solutionrelative:backendservices\\orderservice\\orderservice.application\\service\\abstraction\\iorderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62DFBCE2-119E-43C0-9D99-4AD1E725D592}|BackendServices\\PaymentService\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\paymentservice\\paymentservice.infrastructure\\observability\\correlation\\correlationidmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62DFBCE2-119E-43C0-9D99-4AD1E725D592}|BackendServices\\PaymentService\\PaymentService.Infrastructure\\PaymentService.Infrastructure.csproj|solutionrelative:backendservices\\paymentservice\\paymentservice.infrastructure\\observability\\correlation\\correlationidmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.infrastructure\\observability\\correlation\\correlationidmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,46 +70,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "BackendServices\\PaymentService\\PaymentService.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Api\\appsettings.json",
-              "RelativeToolTip": "BackendServices\\PaymentService\\PaymentService.Api\\appsettings.json",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-29T21:23:00.749Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Program.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T03:28:16.636Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "KafkaOrderCreatedPublisher.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\Messaging\\KafkaOrderCreatedPublisher.cs",
-              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Infrastructure\\Messaging\\KafkaOrderCreatedPublisher.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\Messaging\\KafkaOrderCreatedPublisher.cs",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Infrastructure\\Messaging\\KafkaOrderCreatedPublisher.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAABsAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T22:10:00.205Z",
+              "Title": "OrderService.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-30T03:26:49.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderCreatedConsumer.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Infrastructure\\Messaging\\OrderCreatedConsumer.cs",
-              "RelativeDocumentMoniker": "BackendServices\\PaymentService\\PaymentService.Infrastructure\\Messaging\\OrderCreatedConsumer.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Infrastructure\\Messaging\\OrderCreatedConsumer.cs*",
-              "RelativeToolTip": "BackendServices\\PaymentService\\PaymentService.Infrastructure\\Messaging\\OrderCreatedConsumer.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T22:50:51.806Z",
+              "Title": "PaymentService.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj",
+              "RelativeDocumentMoniker": "BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj",
+              "RelativeToolTip": "BackendServices\\PaymentService\\PaymentService.Api\\PaymentService.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-30T03:26:37.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "Telemetry.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\Shared\\Shared\\Observability\\Telemetry.cs",
+              "RelativeDocumentMoniker": "BackendServices\\Shared\\Shared\\Observability\\Telemetry.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\Shared\\Shared\\Observability\\Telemetry.cs",
+              "RelativeToolTip": "BackendServices\\Shared\\Shared\\Observability\\Telemetry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T03:21:10.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "BackendServices\\PaymentService\\PaymentService.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Api\\Program.cs",
+              "RelativeToolTip": "BackendServices\\PaymentService\\PaymentService.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T21:32:43.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IOrderAppService.cs",
               "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Service\\Abstraction\\IOrderAppService.cs",
               "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Application\\Service\\Abstraction\\IOrderAppService.cs",
@@ -117,64 +140,47 @@
               "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Application\\Service\\Abstraction\\IOrderAppService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T22:43:41.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T22:43:41.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Api\\Program.cs",
-              "RelativeDocumentMoniker": "BackendServices\\PaymentService\\PaymentService.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Api\\Program.cs",
-              "RelativeToolTip": "BackendServices\\PaymentService\\PaymentService.Api\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "OrderCreatedConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Infrastructure\\Messaging\\OrderCreatedConsumer.cs",
+              "RelativeDocumentMoniker": "BackendServices\\PaymentService\\PaymentService.Infrastructure\\Messaging\\OrderCreatedConsumer.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Infrastructure\\Messaging\\OrderCreatedConsumer.cs",
+              "RelativeToolTip": "BackendServices\\PaymentService\\PaymentService.Infrastructure\\Messaging\\OrderCreatedConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T21:32:43.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T22:50:51.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "KafkaOrderCreatedPublisher.cs",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\Messaging\\KafkaOrderCreatedPublisher.cs",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Infrastructure\\Messaging\\KafkaOrderCreatedPublisher.cs",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\Messaging\\KafkaOrderCreatedPublisher.cs",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Infrastructure\\Messaging\\KafkaOrderCreatedPublisher.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAABsAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T22:10:00.205Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "OrderAppService.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Service\\Implementation\\OrderAppService.cs",
-              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Application\\Service\\Implementation\\OrderAppService.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Service\\Implementation\\OrderAppService.cs",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Application\\Service\\Implementation\\OrderAppService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T22:17:24.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T22:45:16.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "OrderService.Api.http",
               "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http",
               "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http",
               "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http",
               "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-04-29T22:55:46.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T22:55:46.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CorrelationIdMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\PaymentService\\PaymentService.Infrastructure\\Observability\\Correlation\\CorrelationIdMiddleware.cs",
               "RelativeDocumentMoniker": "BackendServices\\PaymentService\\PaymentService.Infrastructure\\Observability\\Correlation\\CorrelationIdMiddleware.cs",
@@ -182,12 +188,11 @@
               "RelativeToolTip": "BackendServices\\PaymentService\\PaymentService.Infrastructure\\Observability\\Correlation\\CorrelationIdMiddleware.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T21:39:42.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T21:39:42.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "OrderCreated.cs",
               "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\Shared\\Shared\\Events\\OrderCreated.cs",
               "RelativeDocumentMoniker": "BackendServices\\Shared\\Shared\\Events\\OrderCreated.cs",
@@ -195,8 +200,7 @@
               "RelativeToolTip": "BackendServices\\Shared\\Shared\\Events\\OrderCreated.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T22:46:42.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T22:46:42.802Z"
             },
             {
               "$type": "Document",
@@ -208,21 +212,7 @@
               "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Infrastructure\\Observability\\Correlation\\CorrelationIdMiddleware.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T21:35:43.871Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Program.cs",
-              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Program.cs",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T21:24:16.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T21:35:43.871Z"
             },
             {
               "$type": "Document",
@@ -234,8 +224,7 @@
               "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\appsettings.json",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAACcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-29T21:21:55.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T21:21:55.627Z"
             }
           ]
         }
