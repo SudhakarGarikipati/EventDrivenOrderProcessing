@@ -13,7 +13,7 @@ namespace PaymentService.Infrastructure.Messaging
         private readonly ILogger<OrderCreatedConsumer> _logger;
         private readonly IServiceScopeFactory _scopeFactory;
 
-        public OrderCreatedConsumer(IServiceScopeFactory scopeFactory, IConfiguration configuration, ILogger<OrderCreatedConsumer> logger) : base(configuration, topic, groupId)
+        public OrderCreatedConsumer(IServiceScopeFactory scopeFactory, IConfiguration configuration, ILogger<OrderCreatedConsumer> logger) : base(configuration, topic, groupId, logger)
         {
             _scopeFactory = scopeFactory;
             _logger = logger;

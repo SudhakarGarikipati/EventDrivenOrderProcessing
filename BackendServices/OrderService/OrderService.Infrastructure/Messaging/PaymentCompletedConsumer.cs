@@ -12,8 +12,9 @@ namespace OrderService.Infrastructure.Messaging
         private const string groupId = "order-service-group";
         private readonly ILogger<PaymentCompletedConsumer> _logger;
         private readonly IServiceScopeFactory _scopeFactory;
+
         public PaymentCompletedConsumer(IServiceScopeFactory scopeFactory, ILogger<PaymentCompletedConsumer> logger,IConfiguration configuration) : 
-            base(configuration, topic, groupId)
+            base(configuration, topic, groupId, logger)
         {
             _logger = logger;
             // Create a scope factory to resolve scoped services like IOrderAppService

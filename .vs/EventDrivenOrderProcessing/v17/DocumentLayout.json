@@ -3,72 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\inventoryservice\\inventoryservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:backendservices\\inventoryservice\\inventoryservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.api\\orderservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\orderservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.application\\service\\implementation\\orderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|solutionrelative:backendservices\\orderservice\\orderservice.application\\service\\implementation\\orderappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|solutionrelative:backendservices\\orderservice\\orderservice.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.infrastructure\\grpc\\inventoryserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|solutionrelative:backendservices\\orderservice\\orderservice.infrastructure\\grpc\\inventoryserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.application\\service\\abstraction\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{000F3EBF-8201-4C76-BAB9-A1927EABD77C}|BackendServices\\OrderService\\OrderService.Application\\OrderService.Application.csproj|solutionrelative:backendservices\\orderservice\\orderservice.application\\service\\abstraction\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.infrastructure\\orderservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{322A980B-EFAC-4856-8C30-C2FD3F37255C}|BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj|solutionrelative:backendservices\\orderservice\\orderservice.infrastructure\\orderservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\orderservice\\orderservice.api\\orderservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0F34005C-74BD-4DD3-905F-DE9B92A511C3}|BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj|solutionrelative:backendservices\\orderservice\\orderservice.api\\orderservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\inventoryservice\\inventoryservice.api\\inventoryservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:backendservices\\inventoryservice\\inventoryservice.api\\inventoryservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\inventoryservice\\inventoryservice.api\\grpcservices\\inventorygrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:backendservices\\inventoryservice\\inventoryservice.api\\grpcservices\\inventorygrpcservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\inventoryservice\\inventoryservice.api\\protos\\inventory.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:backendservices\\inventoryservice\\inventoryservice.api\\protos\\inventory.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\inventoryservice\\inventoryservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:backendservices\\inventoryservice\\inventoryservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\inventoryservice\\inventoryservice.api\\inventoryservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:backendservices\\inventoryservice\\inventoryservice.api\\inventoryservice.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7E9545F-7253-4B80-8CCD-2B739E2F24D2}|BackendServices\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\inventoryservice\\inventoryservice.application\\dtos\\checkstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7E9545F-7253-4B80-8CCD-2B739E2F24D2}|BackendServices\\InventoryService\\InventoryService.Application\\InventoryService.Application.csproj|solutionrelative:backendservices\\inventoryservice\\inventoryservice.application\\dtos\\checkstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4087F0A5-9F3E-4805-8614-2820A0985886}|BackendServices\\InventoryService\\InventoryService.Infrastructure\\InventoryService.Infrastructure.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\inventoryservice\\inventoryservice.infrastructure\\inventoryserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4087F0A5-9F3E-4805-8614-2820A0985886}|BackendServices\\InventoryService\\InventoryService.Infrastructure\\InventoryService.Infrastructure.csproj|solutionrelative:backendservices\\inventoryservice\\inventoryservice.infrastructure\\inventoryserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|c:\\users\\jyothsna\\apps\\eventdrivenorderprocessing\\backendservices\\inventoryservice\\inventoryservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{89EFCD61-87B1-47C5-9555-D98347E2D5A4}|BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj|solutionrelative:backendservices\\inventoryservice\\inventoryservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,223 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Infrastructure\\ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\ServiceRegistration.cs",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Infrastructure\\ServiceRegistration.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAACEAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T04:47:54.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderService.Infrastructure",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Infrastructure\\OrderService.Infrastructure.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-01T04:36:48.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InventoryServiceClient.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\gRPC\\InventoryServiceClient.cs",
-              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Infrastructure\\gRPC\\InventoryServiceClient.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Infrastructure\\gRPC\\InventoryServiceClient.cs",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Infrastructure\\gRPC\\InventoryServiceClient.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T03:29:38.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IInventoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Service\\Abstraction\\IInventoryService.cs",
-              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Application\\Service\\Abstraction\\IInventoryService.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Service\\Abstraction\\IInventoryService.cs",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Application\\Service\\Abstraction\\IInventoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T03:27:18.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderService.Api",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
-              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-01T02:58:40.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InventoryService.Api",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj",
-              "RelativeDocumentMoniker": "BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj",
-              "RelativeToolTip": "BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.csproj",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-30T19:10:50.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs",
               "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAYwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T18:03:00.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\Program.cs",
-              "RelativeDocumentMoniker": "BackendServices\\InventoryService\\InventoryService.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\Program.cs*",
-              "RelativeToolTip": "BackendServices\\InventoryService\\InventoryService.Api\\Program.cs*",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T21:57:14.653Z",
+              "WhenOpened": "2026-05-01T20:37:37.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Program.cs",
-              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\Program.cs*",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T03:07:58.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderAppService.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Service\\Implementation\\OrderAppService.cs",
-              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Application\\Service\\Implementation\\OrderAppService.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Application\\Service\\Implementation\\OrderAppService.cs",
-              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Application\\Service\\Implementation\\OrderAppService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T04:52:57.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InventoryGrpcService.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\GrpcServices\\InventoryGrpcService.cs",
-              "RelativeDocumentMoniker": "BackendServices\\InventoryService\\InventoryService.Api\\GrpcServices\\InventoryGrpcService.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\GrpcServices\\InventoryGrpcService.cs",
-              "RelativeToolTip": "BackendServices\\InventoryService\\InventoryService.Api\\GrpcServices\\InventoryGrpcService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABoAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T18:49:51.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "inventory.proto",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\Protos\\inventory.proto",
-              "RelativeDocumentMoniker": "BackendServices\\InventoryService\\InventoryService.Api\\Protos\\inventory.proto",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\Protos\\inventory.proto",
-              "RelativeToolTip": "BackendServices\\InventoryService\\InventoryService.Api\\Protos\\inventory.proto",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2026-04-30T18:36:34.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CheckStockDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Application\\DTOs\\CheckStockDTO.cs",
-              "RelativeDocumentMoniker": "BackendServices\\InventoryService\\InventoryService.Application\\DTOs\\CheckStockDTO.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Application\\DTOs\\CheckStockDTO.cs",
-              "RelativeToolTip": "BackendServices\\InventoryService\\InventoryService.Application\\DTOs\\CheckStockDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T18:17:09.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "InventoryService.Api.http",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.http",
-              "RelativeDocumentMoniker": "BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.http",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.http",
-              "RelativeToolTip": "BackendServices\\InventoryService\\InventoryService.Api\\InventoryService.Api.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Title": "OrderService.Api.http",
+              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http",
+              "RelativeDocumentMoniker": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http",
+              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http",
+              "RelativeToolTip": "BackendServices\\OrderService\\OrderService.Api\\OrderService.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-04-30T18:02:19.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "BackendServices\\InventoryService\\InventoryService.Api\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "BackendServices\\InventoryService\\InventoryService.Api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T18:03:55.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "InventoryServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Infrastructure\\InventoryServiceRegistration.cs",
-              "RelativeDocumentMoniker": "BackendServices\\InventoryService\\InventoryService.Infrastructure\\InventoryServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Infrastructure\\InventoryServiceRegistration.cs",
-              "RelativeToolTip": "BackendServices\\InventoryService\\InventoryService.Infrastructure\\InventoryServiceRegistration.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T17:51:13.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "BackendServices\\InventoryService\\InventoryService.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\Jyothsna\\Apps\\EventDrivenOrderProcessing\\BackendServices\\InventoryService\\InventoryService.Api\\appsettings.json",
-              "RelativeToolTip": "BackendServices\\InventoryService\\InventoryService.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-30T17:50:08.331Z",
+              "WhenOpened": "2026-05-01T20:37:21.91Z",
               "EditorCaption": ""
             }
           ]
