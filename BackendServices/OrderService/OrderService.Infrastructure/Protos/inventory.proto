@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "InventoryService.Grpc";
+
+service InventoryGrpc{
+	rpc CheckStock(CheckStockRequest) returns (CheckStockResponse);
+}
+
+message CheckStockRequest{
+	map<string, int32> keyValuePairs =1;
+}
+
+message CheckStockResponse{
+	map<string,bool> availability = 1;
+	bool allAvailable =2;
+}

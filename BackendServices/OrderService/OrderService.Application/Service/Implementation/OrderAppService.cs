@@ -11,12 +11,14 @@ namespace OrderService.Application.Service.Implementation
         private readonly IOrderServiceRepository _orderServiceRepository;
         private readonly IMapper _mapper;
         private readonly IOrderCreatedPublisher _orderCreatedPublisher;
+        private readonly IInventoryService _inventoryService;
 
-        public OrderAppService(IOrderServiceRepository orderServiceRepository, IMapper mapper, IOrderCreatedPublisher orderCreatedPublisher)
+        public OrderAppService(IInventoryService inventoryService, IOrderServiceRepository orderServiceRepository, IMapper mapper, IOrderCreatedPublisher orderCreatedPublisher)
         {
             _orderServiceRepository = orderServiceRepository;
             _mapper = mapper;
             _orderCreatedPublisher = orderCreatedPublisher;
+            _inventoryService = inventoryService;
         }
 
         public async Task CreateOrderAsync(CreateOrderRequest request, string correlationId)
@@ -25,6 +27,12 @@ namespace OrderService.Application.Service.Implementation
             order.CreatedDate = DateTime.UtcNow; // ISO 8601
             await _orderServiceRepository.CreateOrderAsync(order);
             var createdOrder = await _orderServiceRepository.GetOrderByIdAsync(order.OrderId);
+            var productsAvail = await _inventoryService.CheckStockAsync(new Dictionary<string, int> { { "1", 1 },
+    { "2", 1 }});
+            if(productsAvail.Values.Any(v=> v ==  false))
+            {
+                throw new Exception("Not stock, order is on hold..");
+            }
             var orderCreated = _mapper.Map<OrderCreated>(createdOrder);
             orderCreated.CorrelationId = correlationId;
             orderCreated.TotalAmount = createdOrder.OrderItems.Sum(oi => oi.Quantity * oi.UnitPrice);
@@ -46,11 +54,11 @@ namespace OrderService.Application.Service.Implementation
 
         public async Task MarkOrderAsPaidAsync(Guid orderId, string paymentId, DateTime dateTime)
         {
-            if(orderId == Guid.Empty)
+            if (orderId == Guid.Empty)
             {
                 throw new ArgumentException("OrderId cannot be empty.", nameof(orderId));
             }
-            if(string.IsNullOrEmpty(paymentId))
+            if (string.IsNullOrEmpty(paymentId))
             {
                 throw new ArgumentException("PaymentId cannot be null or empty.", nameof(paymentId));
             }

@@ -1,3 +1,4 @@
+using InventoryService.Api.GrpcServices;
 using InventoryService.Infrastructure;
 using Serilog;
 
@@ -17,6 +18,10 @@ builder.Host.UseSerilog();
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+// Required for gRPC client infrastructure
+builder.Services.AddGrpc();
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
@@ -27,6 +32,9 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+app.MapGrpcService<InventoryGrpcService>();
+app.MapGet("/", () => "Inventory Grpc Service is running..");
 
 app.UseHttpsRedirection();
 
